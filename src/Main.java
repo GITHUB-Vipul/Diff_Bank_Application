@@ -4,5 +4,6 @@ public class Main {
         System.out.println(vipul);
         SBIAccount vipul2=new SBIAccount("vipul","vipul123",3000);
         System.out.println(vipul2);
+        System.out.println(vipul.calculateInterest(5));
     }
 }

@@ -108,7 +108,7 @@ public class SBIAccount implements BankAccountInterface {
 
     @Override
     public double calculateInterest(int year) {
-        return 0;
+        return this.balance*year*this.rateOfInterest/100.0;
     }
 
     @Override
